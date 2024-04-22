@@ -1,14 +1,14 @@
-require("dotenv").config();
-
 const express = require("express");
-const sequelize = require("./config/connection");
-const categoryRoutes = require("./routes/categoryRoutes");
+const routes = require("./routes");
+// import sequelize connection
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
-app.use("/api/categories", categoryRoutes);
+app.use(express.urlencoded({ extended: true }));
+
+app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () =>
