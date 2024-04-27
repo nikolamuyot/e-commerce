@@ -1,6 +1,6 @@
 # Backend E-commerce Readme
 
-https://drive.google.com/file/d/1woSrV7_blDbYD7wwOJYH2aH9VBeBNCfg/view
+https://drive.google.com/file/d/1QE6G9s2CbVaECe5BNp68VMLDcIyFLMXr/view
 
 ## Description
 
