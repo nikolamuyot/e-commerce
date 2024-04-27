@@ -1,5 +1,7 @@
 # Backend E-commerce Readme
 
+https://drive.google.com/file/d/1QE6G9s2CbVaECe5BNp68VMLDcIyFLMXr/view
+
 ## Description
 
 This readme provides information about the backend of an e-commerce project.
@@ -27,7 +29,3 @@ Explain how others can contribute to the backend of the e-commerce project. Incl
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-Provide your contact information so that others can reach out to you with questions or feedback.
